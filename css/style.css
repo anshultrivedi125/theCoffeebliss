@@ -247,3 +247,24 @@ a:hover {
     background-color: var(--bs-pagination-active-bg);
     border-color: var(--bs-pagination-active-border-color);
 }
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text-content,
+.row {
+  z-index: 1;
+  position: relative;
+}
